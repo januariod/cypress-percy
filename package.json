@@ -1,0 +1,37 @@
+{
+  "name": "cypress-percy",
+  "version": "1.0.0",
+  "description": "Visual regression testing with cypress and percy",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "eslint cypress/**/*.js --fix",
+    "lint": "eslint cypress/**/*.js",
+    "cy:open": "npx cypress open",
+    "cy:e2e": "npx percy exec -- cypress run --record --tag 'visual regression'",
+    "test": "npx percy exec -- cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/januariod/cypress-percy.git"
+  },
+  "keywords": [
+    "cypress",
+    "percy",
+    "qa",
+    "automation",
+    "regression"
+  ],
+  "author": "Daniel Januario",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/januariod/cypress-percy/issues"
+  },
+  "homepage": "https://github.com/januariod/cypress-percy#readme",
+  "devDependencies": {
+    "@percy/cypress": "^2.3.2",
+    "cypress": "^10.3.1",
+    "eslint": "^8.20.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "husky": "^8.0.1"
+  }
+}
