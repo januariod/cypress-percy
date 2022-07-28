@@ -1,4 +1,5 @@
 # _Visual-Regression_ testing with **Cypress** and **Percy**
+
 [![ci](https://github.com/januariod/cypress-percy/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/januariod/cypress-percy/actions/workflows/ci.yml)
 
 Sample project to demonstrate visual regression testing written with Cypress and Percy running on a CI service.
