@@ -44,7 +44,7 @@ Run `npm test` (or `npm t` for short) to run all tests in headless mode.
 
 Run `npm run cy:open` to open the Cypress Test Runner to run tests in interactive mode.
 
-### CI mode
+### CI mode 
 
 Run `npm run cy:e2e` to run all tests in headless mode on cy server.
 
